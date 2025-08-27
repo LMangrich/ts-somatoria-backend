@@ -3,7 +3,7 @@ import { calculateScore } from "../services/scoringService";
 import { scoringInputSchema } from "../schema/scoreSchema";
 import { ScoringInput } from "../types/scoringTypes";
 
-export function scoreControler(req: Request, res: Response){
+export function scoreController(req: Request, res: Response){
     try{
         const {error, value } = scoringInputSchema.validate(req.body, {abortEarly: false})
         
