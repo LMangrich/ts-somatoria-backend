@@ -9,12 +9,13 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^5.1.0",
+    "express-rate-limit": "^8.0.1",
     "joi": "^18.0.1"
-  }, 
+  },
   "scripts": {
-  "build": "tsc",
-  "start": "node dist/app.js",
-  "dev": "ts-node src/app.ts",
-  "postinstall": "npm run build"
-}
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "dev": "ts-node src/app.ts",
+    "postinstall": "npm run build"
+  }
 }

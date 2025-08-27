@@ -1,5 +1,6 @@
 import express from "express";
 import cors from "cors"; 
+import rateLimit from "express-rate-limit";
 import scoreRoutes from "./routes/scoreRoutes";
 
 const app = express();
@@ -16,7 +17,18 @@ app.use(cors({
 
 app.use(express.json());
 
-app.use("/score", scoreRoutes);
+const limiter = rateLimit({
+  windowMs: 1 * 60 * 1000, 
+  max: 30,                 
+  message: {
+    status: 429,
+    error: "Muitas requisições. Por favor, tente novamente depois."
+  },
+  standardHeaders: true,   
+  legacyHeaders: false,   
+});
+
+app.use("/score", limiter, scoreRoutes);
 
 const PORT = process.env.PORT ? parseInt(process.env.PORT) : 3000;
 
