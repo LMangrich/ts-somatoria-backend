@@ -60,8 +60,8 @@ src/
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/[seu-usuario]/ufsc-scoring-backend.git
-cd ufsc-scoring-backend
+git clone https://github.com/LMangrich/.git](https://github.com/LMangrich/ts-somatoria-backend.git
+cd ts-somatoria-backend
 ```
 
 2. Instale as dependências:
@@ -146,7 +146,7 @@ Se o aluno marcou A, B e E:
 Este backend funciona em conjunto com o frontend disponível em:
 - **Repositório:** `https://github.com/Lmangrich/ts-somatoria-frontend`
 - **Deploy:** `https://Lmangrich.github.io/ts-somatoria-frontend`
-
+  
 ## 🤝 Contribuindo
 
 1. Faça um fork do projeto
