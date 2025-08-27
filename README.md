@@ -18,8 +18,11 @@ Este projeto é o backend de uma calculadora especializada em questões de somat
 ## 🚀 Deploy
 
 A aplicação está hospedada no **Render** e pode ser acessada em:
+
 ```
-https://[---].onrender.com
+https://ts-somatoria-backend.onrender.com/score
+e
+https://ts-somatoria-backend.onrender.com/score/health
 ```
 
 ## 🛠️ Tecnologias Utilizadas
@@ -145,7 +148,7 @@ Se o aluno marcou A, B e E:
 
 Este backend funciona em conjunto com o frontend disponível em:
 - **Repositório:** `https://github.com/Lmangrich/ts-somatoria-frontend`
-- **Deploy:** `https://Lmangrich.github.io/ts-somatoria-frontend`
+- **Deploy:** [Calculadora de Somatórias](https://lmangrich.github.io/ts-somatoria-frontend/)
   
 ## 🤝 Contribuindo
 
