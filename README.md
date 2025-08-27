@@ -1,6 +1,8 @@
-# Calculadora de Somatória UFSC - Backend
+# Calculadora de Somatória - Backend
 
 Uma API REST desenvolvida em TypeScript/Node.js para calcular pontuações de questões de somatória com enfoque no vestibular da UFSC.
+
+**Como o backend está hospedado no "Render", após 15 minutos de não uso, fica em estado inativo. Para voltar à atividade, demora cerca de 1 minuto. Então é só esperar um pouco caso vá usar após um certo período de tempo!**
 
 ## 📋 Sobre o Projeto
 
