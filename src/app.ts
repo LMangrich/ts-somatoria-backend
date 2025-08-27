@@ -4,7 +4,11 @@ import scoreRoutes from "./routes/scoreRoutes";
 
 const app = express();
 
-const allowedOrigins = ["https://Lmangrich.github.io/ts-somatoria-frontend"];
+const allowedOrigins = [
+  "https://lmangrich.github.io",
+  "https://lmangrich.github.io/ts-somatoria-frontend",
+  "http://localhost:3000"
+];
 
 app.use(cors({
     origin: allowedOrigins
